@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="catalog">
+        <div class="catalog-content">
+            <ul class="catalog-list">
+                <li class="catalog__item"><a href="javascript:void(0)" onclick="showHide('block_id')" class="catalog__link multifunc__text">Многофункциональные</a></li>
+                <li class="catalog__item"><a href="javascript:void(1)" onclick="showHide('block1_id')" class="catalog__link road__text">Дорожные</a></li>
+                <li class="catalog__item"><a href="javascript:void(2)" onclick="showHide('block2_id')" class="catalog__link evening__text">Вечерние</a></li>
+                <li class="catalog__item"><a href="javascript:void(3)" onclick="showHide('block3_id')" class="catalog__link every__text">Повседневные</a></li>
+            </ul>
+            <div class="catalog-content-blocks">
+                <div class="catalog-content-bag multyfunc-block" id="block_id" >
+                    <div class="catalog-bag__title">Деловые многофункциональные модели для работы</div>
+                    <div class="catalog-bag__text">Строгая форма, с множеством дополнительных отделений. Удобны для размещения документов и канцелярских принадлежностей</div>
+                    <div class="catalog-bags">
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/fun1.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">90.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/fun2.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">40.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/fun3.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">80.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/fun4.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">80.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/fun5.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">50.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/fun6.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">45.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/fun7.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">56.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/fun8.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">78.000 ₽</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-content-bag road-block" id="block1_id" style="display: none;" >
+                    <div class="catalog-bag__title">Дорожныe</div>
+                    <div class="catalog-bag__text">Объемные практичные модели для командировок и путешествий.</div>
+                    <div class="catalog-bags">
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/road1.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">50.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/road2.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">60.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/road3.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">56.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/road4.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">39.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/road5.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">45.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/road6.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">89.000 ₽</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-content-bag evening-block" id="block2_id" style="display: none;" >
+                    <div class="catalog-bag__title">Вечерние</div>
+                    <div class="catalog-bag__text">Небольшие сумки, предназначенные для особых случаев</div>
+                    <div class="catalog-bags">
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/evening1.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">45.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/evening2.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">67.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/evening3.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">60.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/evening4.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">60.000 ₽</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-content-bag every-block" id="block3_id" style="display: none;" >
+                    <div class="catalog-bag__title">Повседневные</div>
+                    <div class="catalog-bag__text">Практичные и универсальные модели. Отлично подходят на роль базовой сумки в гардеробе, гармонично сочетаются практически с любой одеждой</div>
+                    <div class="catalog-bags">
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/everyday1.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">30.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/everyday2.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">130.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/everyday3.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">20.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/everyday4.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">33.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/everyday5.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">45.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/everyday6.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">80.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/everyday7.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">30.000 ₽</div>
+                        </div>
+                        <div class="catalog-bags-bag">
+                            <div class="catalog-bag__img"><img src="bag/everyday8.jpg" alt="" class="bag-img"></div>
+                            <div class="catalog-bag__price">40.000 ₽</div>
+                        </div>
+                    </div>
+                </div>
+              <!--   <div class="catalog-evening" id="block1_id" style="display: none;">22222 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto optio molestias, natus soluta deleniti voluptas fuga, neque placeat magnam non ad, odit voluptatem modi error provident ipsa iure reprehenderit maiores. Sapiente, harum! Repellat nesciunt, unde iste magnam amet odit aperiam?</div>
+                <div class="catalog-everyday" id="block2_id" style="display: none;">3333 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ut quam optio quidem, sequi reprehenderit?</div>
+             -->
+            </div>
+        </div>
+    </div>
+    <div class="application" id="application">
+        <div class="application-content">
+            <div class="application-content__title">Хотите приобрести сумку?</div>
+            <div class="application-content__text">Напишите свои данные</div>
+            <div class="application-content-info">
+                <div class="application-content-form">
+                    <form action="#" method="post" target="_blank" class="application-form">
+                        <ul class="application-form-ul">
+                            <li class="application-form-li">
+                                <label for="name" class="application-form__text">Имя:*</label>
+                                <input type="text" name="name"  id="name" required class="input__application"> 
+                            </li>
+                            <li class="application-form-li">
+                                <label for="number" class="application-form__text">Телефон:*</label>
+                                <input type="tel" name="phone" placeholder="+7 000 000-00-00" id="number" maxlength="21" required class="input__application">
+                            </li>
+                            <li class="application-form-li">
+                                <label for="message" class="application-form__text">Ваш комментарий</label>
+                                <textarea name="comment"  id="message" class="input__application"></textarea>
+                            </li>
+                        </ul>
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
+                <div class="application-content-img">
+                    <img src="img/bagSum.jpg" alt="" class="bag__application">
+                </div>
+            </div>
+        </div>
+    </div>
+        <script>
+            // function showHide(element_id) {
+            //     if (document.getElementById(element_id)) { 
+            //         var obj = document.getElementById(element_id); 
+            //         if (obj.style.display != "block") { 
+            //             obj.style.display = "block"; //Показываем элемент
+            //         }
+            //         else obj.style.display = "none"; //Скрываем элемент
+            //     }
+            //     else alert("Элемент с id: " + element_id + " не найден!"); 
+            // }  
+
+            const catalogLinks = document.querySelectorAll('.catalog__link')
+            const multifuncItems = document.querySelector(".multyfunc-block")
+            const roadItems = document.querySelector(".road-block")
+            const evening = document.querySelector(".evening-block")
+            const every = document.querySelector(".every-block")
+
+                
+                catalogLinks.forEach((item) => {
+                    item.addEventListener('click', (e)=> { 
+                        catalogLinks.forEach((item) => {
+                            item.style.color = "#000"
+                        })
+                        e.target.style.color = "#c2b99e"
+                        if (e.target.classList.contains("multifunc__text")) {
+                            roadItems.style.display = "none"
+                            multifuncItems.style.display = "block"
+                            evening.style.display = "none"
+                            every.style.display = "none"
+                         } else if (e.target.classList.contains("road__text")) {
+                            roadItems.style.display = "block"
+                            multifuncItems.style.display = "none"
+                            evening.style.display = "none"
+                            every.style.display = "none"
+                         } else if (e.target.classList.contains("evening__text")) {
+                            roadItems.style.display = "none"
+                            multifuncItems.style.display = "none"
+                            evening.style.display = "block"
+                            every.style.display = "none"
+                         } else if (e.target.classList.contains("every__text")) {
+                            roadItems.style.display = "none"
+                            multifuncItems.style.display = "none"
+                            evening.style.display = "none"
+                            every.style.display = "block"
+                         }    
+
+                })
+                })
+
+          </script>
+
+    </div>
+</body>
+</html>
